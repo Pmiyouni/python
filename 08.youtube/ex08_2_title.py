@@ -34,7 +34,7 @@ for title in titles:
         # print("조회수", hits)
 
         # 제목,조회수를 각각 리스트에 담기
-        #appecnd():리스트에 데이터 추가할때
+        #append():리스트에 데이터 추가할때
         title_list.append(title.text)
         hits_list.append(hits)
 
